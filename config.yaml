@@ -1,6 +1,6 @@
-TargetIp: 9.135.78.220
+TargetIp: 127.0.0.1
 TargetPort: 6000
-CoroutineNum: 1000
-Duration: 5
+CoroutineNum: 25000
+Duration: 300
 MaxTimeout: 200
 Cmd: "command=CmdCurlSo&url=http%3A%2F%2Fwww.baidu.com%2F&type=get&content="
